@@ -8,8 +8,10 @@ import "./assets/styles/global.scss"
 //组件
 import App from './App.tsx'
 
+import {BrowserRouter} from 'react-router-dom'
+
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
 )
