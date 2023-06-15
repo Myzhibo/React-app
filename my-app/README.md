@@ -114,7 +114,7 @@ const Page2 = lazy( () => import('../view/Page2') )
 <Suspense fallback={<div>loading...</div>}> {outlet} </Suspense>
 ```
 
-## Home组件引入Outlet
+## Home组件引入Outlet 
 -   引入Outlet显示子路由
 
 # 布局
